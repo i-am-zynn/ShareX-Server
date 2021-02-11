@@ -49,5 +49,6 @@ Then, in the `Error message` field, indicate `$json:status$`.
 <b>7 -</b> Close the window of configuration of the remote server.
 <br /><br />
 <b>8 -</b> Click on the `Destination` button, then pass your cursor on the `Image uploader: [...]` button, and select `Custom image uploader`.
+<br /><br />
 # Support
 If you need help, open new issue by cliking <a href="https://github.com/NexusDeveloppement/ShareX-Server/issues/new">here</a>.
