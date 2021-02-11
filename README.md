@@ -36,9 +36,11 @@ In the table who are located below the dropdown list, incate in the first line a
 <br />
 A second line appeared in the table, incate in the second line at the `Name` column `password` and in the next column your password, the one you have also specified in the `server.php` file.
 <br /><br />
-<b>5 -</b> Click on the `Response` tab.
+<b>5 -</b> In the `File from name` field, indicate `image`.
 <br /><br />
-<b>6 -</b> In the `URL` field, indicate `$json:url$`.
+<b>6 -</b> Click on the `Response` tab.
+<br /><br />
+<b>7 -</b> In the `URL` field, indicate `$json:url$`.
 <br />
 Leave blank the `Thumbnail URL` field.
 <br />
@@ -46,9 +48,9 @@ In the `Deletion URL` field, indicate `$json:deletion_url$`.
 <br />
 Then, in the `Error message` field, indicate `$json:status$`.
 <br /><br />
-<b>7 -</b> Close the window of configuration of the remote server.
+<b>8 -</b> Close the window of configuration of the remote server.
 <br /><br />
-<b>8 -</b> Click on the `Destination` button, then pass your cursor on the `Image uploader: [...]` button, and select `Custom image uploader`.
+<b>9 -</b> Click on the `Destination` button, then pass your cursor on the `Image uploader: [...]` button, and select `Custom image uploader`.
 <br /><br />
 # Support
 If you need help, open new issue by cliking <a href="https://github.com/NexusDeveloppement/ShareX-Server/issues/new">here</a>.
