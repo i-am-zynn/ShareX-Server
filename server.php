@@ -98,13 +98,13 @@ if ($username != USERNAME OR $password != PASSWORD) {
 
 }
 
-if (!file_exists("images")) {
+if (!file_exists("files")) {
 
     return response (500, "Incomplete ShareX server", null, null);
 
 }
 
-if (!isset($_FILES["image"])) {
+if (!isset($_FILES["file"])) {
 
     return response (400, "File not existing", null, null);
 
@@ -113,18 +113,18 @@ if (!isset($_FILES["image"])) {
 $characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789";
 $generateFileName = str_shuffle($characters);
 $generateFileName = substr($generateFileName, 0, 7);
-$fileExtension = strtolower(substr(strrchr($_FILES["image"]['name'], '.'), 1));
+$fileExtension = strtolower(substr(strrchr($_FILES["file"]['name'], '.'), 1));
 
-if (file_exists("images/{$generateFileName}.{$fileExtension}")) {
+if (file_exists("files/{$generateFileName}.{$fileExtension}")) {
 
     return response (500, "One file with this name already exists", null, null);
 
 }
 
-if (!move_uploaded_file($_FILES["image"]["tmp_name"], "images/{$generateFileName}.{$fileExtension}")) {
+if (!move_uploaded_file($_FILES["file"]["tmp_name"], "files/{$generateFileName}.{$fileExtension}")) {
 
     return response (500, "Error when uploading", null, null);
 
 }
 
-response (200, "Success", "https://{$_SERVER['SERVER_NAME']}/{$generateFileName}", null);
+response (200, "Success", "https://{$_SERVER['SERVER_NAME']}/{$generateFileName}.{$fileExtension}", null);

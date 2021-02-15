@@ -1,2 +1,4 @@
 RewriteEngine on
-RewriteRule ^([A-Za-z0-9]+)$ images/$1.png
+RewriteRule ^([A-Za-z0-9.]+)$ files/$1
+
+Options -Indexes

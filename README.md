@@ -19,7 +19,7 @@ This server can works to latest version of PHP, and it is compatible with Apache
 <br /><br />
 <b>5 -</b> Open the `server.php` file with a code editor, and follow the instructions who are located in this last.
 <br /><br />
-<b>6 -</b> Create a folder named `images` in the directory where you can find the `server.php` file of the ShareX server.
+<b>6 -</b> Create a folder named `files` in the directory where you can find the `server.php` file of the ShareX server.
 <br /><br />
 # Configuration of the ShareX software
 <b>1 -</b> Open the ShareX sofware.
@@ -36,7 +36,7 @@ In the table who are located below the dropdown list, incate in the first line a
 <br />
 A second line appeared in the table, incate in the second line at the `Name` column `password` and in the next column your password, the one you have also specified in the `server.php` file.
 <br /><br />
-<b>5 -</b> In the `File from name` field, indicate `image`.
+<b>5 -</b> In the `File from name` field, indicate `file`.
 <br /><br />
 <b>6 -</b> Click on the `Response` tab.
 <br /><br />
