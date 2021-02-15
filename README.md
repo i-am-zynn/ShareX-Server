@@ -1,6 +1,6 @@
 # ShareX-Server
-ShareX-Server is a powerful ShareX server. You can use this if you prefer host your pictures on your own server or your own website instead of host your pictures on a publics websites, or for multiple reasons.
-<br />
+ShareX-Server is a powerful ShareX server. You can use this if you prefer host your pictures on your own server or your own website instead of host your pictures on a publics websites, or for multiple reasons. All file types are supported !
+<br /><br />
 The ShareX software is required for use ShareX-Server. You can access to the official website of ShareX for download the software by clicking <a href="https://getsharex.com/downloads/">here</a>.
 <br /><br />
 This server can works to latest version of PHP, and it is compatible with Apache and Nginx.
