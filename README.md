@@ -32,9 +32,9 @@ This server can works to latest version of PHP, and it is compatible with Apache
 <br />
 In the dropdown list named `Body`, select `Form data (multipart/form-data)`.
 <br />
-In the table who are located below the dropdown list, incate in the first line at the `Name` column `username` and in the next colomn your username, the one you specified in the `server.php` file.
+In the table who are located below the dropdown list, indicate in the first line at the `Name` column `username` and in the next colomn your username, the one you specified in the `server.php` file.
 <br />
-A second line appeared in the table, incate in the second line at the `Name` column `password` and in the next column your password, the one you have also specified in the `server.php` file.
+A second line appeared in the table, indicate in the second line at the `Name` column `password` and in the next column your password, the one you have also specified in the `server.php` file.
 <br /><br />
 <b>5 -</b> In the `File from name` field, indicate `file`.
 <br /><br />
